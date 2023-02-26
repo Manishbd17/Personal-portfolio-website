@@ -32,7 +32,11 @@ const Header = () => {
                     </div>
                 </div>
                 <div className="tag-cmp app__flex">
-                    <p className="p-text">B.Tech in Computer Science and a professional Software Devloper at a software company.I'm a self-taught Full Stack Developer. I have a fine experience in modern web technologies including ReactJs, NodeJs, MongoDB, Java, Springboot and SQL . I love open source and building side project</p>
+                    <p className="p-text">B.tech in Computer Science and a full stack developer at a software company</p>
+                    <br /> 
+                    <p className="p-text">I have fine experience in modern web technologies including ReactJs, NodeJs, MongoDB, Java, Springboot and SQL</p>
+                    <br />
+                    <p className="p-text">I love open source and building side projects. I am open to work or collaborate.</p>
                     {/* <p className="p-text">TCS</p> */}
                 </div>
             </div>
@@ -56,7 +60,7 @@ const Header = () => {
                 whileInView={scaleVariants.whileInView}
                 className="app__header-circles"
             >
-                {[images.flutter, images.redux, images.sass].map((circle) => (
+                {[images.java, images.react, images.node].map((circle) => (
                     <div className="circle-cmp app__flex" key={`index-${circle}`}>
                         <img src={circle} alt="circle"/>
                     </div>

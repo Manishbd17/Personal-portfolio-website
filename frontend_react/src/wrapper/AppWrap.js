@@ -1,5 +1,6 @@
 import React from 'react';
 import { NavigationDots, SocialMedia } from '../components';
+import { BiCopyright } from 'react-icons/bi';
 
 const AppWrap = (Component, idName, classNames) => function HOC() {
   return (
@@ -8,7 +9,10 @@ const AppWrap = (Component, idName, classNames) => function HOC() {
         <div className='app__wrapper app__flex'>
             <Component />
             <div className='copyright'> 
-                <p className='p-text'>@2023 Manish</p>
+                <p className='p-text'>
+                   <BiCopyright /> 
+                   2023 Manish
+                </p>
                 <p className='p-text'>Designed and Developed by Manish Sharma</p>
             </div>
             <NavigationDots active={idName}/>

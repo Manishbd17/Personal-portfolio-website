@@ -1,4 +1,4 @@
-import email from '../assets/email.png';
+import email from '../assets/email.jpg';
 import mobile from '../assets/mobile.png';
 import api from '../assets/api.png';
 import cpp from '../assets/cpp.png';
@@ -12,16 +12,19 @@ import javascript from '../assets/javascript.png';
 import mu5 from '../assets/mu5.png';
 import node from '../assets/node.png';
 import python from '../assets/python.png';
+import java from '../assets/java.png';
 import react from '../assets/react.png';
 import redux from '../assets/redux.png';
 import sass from '../assets/sass.png';
 import typescript from '../assets/typescript.png';
 import vue from '../assets/vue.png';
+import sorting from '../assets/sorting.png';
+import netflix from '../assets/netflix.png';
 
 import about01 from '../assets/about01.png';
-import about02 from '../assets/about02.png';
+import about02 from '../assets/about02.jpg';
 import about03 from '../assets/about03.png';
-import about04 from '../assets/about04.png';
+
 
 import profile from '../assets/profile.png';
 import circle from '../assets/circle.svg';
@@ -48,6 +51,7 @@ export default {
   html,
   javascript,
   mu5,
+  java, 
   node,
   python,
   react,
@@ -58,12 +62,13 @@ export default {
   about01,
   about02,
   about03,
-  about04,
   profile,
   circle,
   logo,
   adidas,
   amazon,
+  sorting,
+  netflix,
   asus,
   bolt,
   nb,
