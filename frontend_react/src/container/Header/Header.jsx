@@ -11,9 +11,9 @@ const scaleVariants = {
         transition: {
             duration: 1,
             ease: 'easeInOut'
-        }
-    }
-}
+        },
+    },
+};
 
 const Header = () => {
     return (
